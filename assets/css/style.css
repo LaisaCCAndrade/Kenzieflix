@@ -1,0 +1,148 @@
+*{
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000;
+}
+
+.cabecalho{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    font-family: 'Public Sans', sem serifa;
+}  
+
+.logo{
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+img:hover{
+    border: 1px solid #fcfcfc;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0 0 15px 2px #000000;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Public Sans', sem serifa;
+}
+
+.container{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    font-family: 'Public Sans', sem serifa;
+}
+
+.perfil{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.perfis{
+    width: 160px;
+    height: 160px;
+}
+
+.perfil1{
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+}
+
+.addPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    opacity: 0.4;
+}
+
+.addPerfil:hover{
+    opacity: 1;
+    border: 1px solid #fcfcfc;
+    border-radius: 25px 0 25px 0;
+    box-shadow: 0 0 20px 2px #000000;
+    cursor: pointer;
+}
+
+.perfil img{
+    border-radius: 8px;
+}
+
+.nome1{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    color: #d3d3d3;
+    margin-top: 15px;
+}
+
+.nome2{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    left: 590px;
+    top: 480px;
+    color: #d3d3d3;
+    margin-top: 15px;
+}
+
+.nome3{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    left: 795px;
+    top: 480px;
+    color: #d3d3d3;
+    margin-top: 15px;
+}
+
+.nome4{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    left: 795px;
+    top: 480px;
+    color: #d3d3d3;
+    margin-top: 15px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    font-family: 'Public Sans', sem serifa;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+
+.botao:hover{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
